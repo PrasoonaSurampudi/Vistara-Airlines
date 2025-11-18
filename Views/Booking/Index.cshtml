@@ -1,0 +1,66 @@
+﻿@model IEnumerable<VistaraAirlines.Models.BookingModel>
+@using System.Linq
+
+@{
+    ViewBag.Title = "All Bookings";
+}
+
+<h2 class="text-center text-primary mb-4">📘 Booking Details</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="bg-dark text-white">
+        <tr>
+            <th>Booking ID</th>
+            <th>Passenger Name</th>
+            <th>Flight</th>
+            <th>Seats</th>
+            <th>Amount Paid</th>
+            <th>Booking Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.BookingId</td>
+                    <td>@item.PassengerName</td>
+                    <td>@item.FlightId</td>
+                    <td>@item.SeatsBooked</td>
+                    <td>₹@item.AmountPaid</td>
+                    <td>@item.BookingDate.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        @if (item.BookingStatus == "Cancelled")
+                        {
+                            <span class="badge bg-danger">Cancelled</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">Confirmed</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Booking", new { id = item.BookingId })"
+                           class="btn btn-warning btn-sm">Edit</a>
+
+                       
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="8" class="text-center text-danger">No bookings found</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="text-center mt-3">
+    <a href="@Url.Action("Create", "Booking")" class="btn btn-primary">➕ Add Booking</a>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>
+</div>

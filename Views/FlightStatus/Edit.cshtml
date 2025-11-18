@@ -1,0 +1,11 @@
+﻿@model VistaraAirlines.Models.FlightStatusModel
+<h2>Edit Flight Status</h2>
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.FlightStatusId)
+    <label>Flight</label>@Html.TextBoxFor(m => m.FlightNumber, new { @readonly = "readonly" })
+    <br />
+    <label>Status</label>@Html.TextBoxFor(m => m.Status)
+    <br />
+    <input type="submit" value="Update" class="btn btn-primary" />
+}

@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Vistara Airlines</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Vistara Airlines</a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                    @* ------------------------ USER LOGGED IN ------------------------ *@
+                    @if (Session["User"] != null)
+                    {
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Book Flight", "Index", "Booking")</li>
+                        <li>@Html.ActionLink("My Bookings", "Index", "Cancellation")</li>
+
+                        @* 🚫 User SHOULD NOT SEE Flights *@
+                    }
+
+                    @* ------------------------ MANAGER LOGGED IN ------------------------ *@
+                    @if (Session["ManagerUser"] != null)
+                    {
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+                        @* ✅ Manager can see Flights *@
+                        <li>@Html.ActionLink("Flights", "Index", "Flights")</li>
+
+                        @* Add more manager-only pages if needed *@
+                        <li>@Html.ActionLink("Manage Bookings", "Index", "Manage")</li>
+                    }
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    @* Show Logout for BOTH roles *@
+                    @if (Session["User"] != null)
+                    {
+                        <li>@Html.ActionLink("Logout", "Logout", "User")</li>
+                    }
+                    else if (Session["ManagerUser"] != null)
+                    {
+                        <li>@Html.ActionLink("Logout", "Logout", "Manager")</li>
+                    }
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container body-content" style="margin-top:70px;">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Vistara Airlines</p>
+        </footer>
+    </div>
+
+</body>
+</html>

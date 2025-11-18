@@ -1,0 +1,43 @@
+﻿@model IEnumerable<VistaraAirlines.Models.FlightModel>
+
+<h2 class="text-center">Flight Status</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="bg-primary text-white">
+        <tr>
+            <th>Flight No</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <td>@f.FlightNumber</td>
+                <td>@f.Source</td>
+                <td>@f.Destination</td>
+                <td>@f.DepartureTime.ToString("dd-MM-yyyy HH:mm")</td>
+                <td>@f.ArrivalTime.ToString("dd-MM-yyyy HH:mm")</td>
+                <td>
+                    @if (f.FlightStatus == "Cancelled")
+                    {
+                        <span class="badge bg-danger">@f.FlightStatus</span>
+                    }
+                    else if (f.FlightStatus == "Delayed")
+                    {
+                        <span class="badge bg-warning text-dark">@f.FlightStatus</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">@f.FlightStatus</span>
+                    }
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

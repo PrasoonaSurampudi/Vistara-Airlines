@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg border-0 rounded-4 p-4">
+                <div class="card-header bg-primary text-white text-center fs-3 fw-bold rounded-top-4">
+                    Contact Vistara Airlines
+                </div>
+                <div class="card-body">
+                    <h4 class="text-secondary mb-3">We'd Love to Hear From You! ✉️</h4>
+                    <p class="lead">
+                        Have questions about flights, bookings, or cancellations? Reach out to our support team and we’ll assist you promptly.
+                    </p>
+
+                    <hr />
+
+                    <h5 class="fw-bold text-primary">Customer Support</h5>
+                    <p>
+                        Email: <a href="mailto:support@vistaraairlines.com">support@vistaraairlines.com</a><br />
+                        Phone: +91 1800 123 4567<br />
+                        Available: 24/7
+                    </p>
+
+                    <h5 class="fw-bold text-primary">Office Address</h5>
+                    <p>
+                        Vistara Airlines Headquarters<br />
+                        123 Skyway, Mumbai, India
+                    </p>
+
+                    <h5 class="fw-bold text-primary">Send Us a Message</h5>
+                    @using (Html.BeginForm("SendMessage", "Contact", FormMethod.Post))
+                    {
+                        <div class="mb-3">
+                            @Html.Label("Name", htmlAttributes: new { @class = "form-label" })
+                            @Html.TextBox("Name", "", new { @class = "form-control", placeholder = "PRASOONA SURAMPUDI" })
+                        </div>
+                        <div class="mb-3">
+                            @Html.Label("Email", htmlAttributes: new { @class = "form-label" })
+                            @Html.TextBox("Email", "", new { @class = "form-control", placeholder = "prasoonasurampudi9@gmail.com", type = "email" })
+                        </div>
+                        <div class="mb-3">
+                            @Html.Label("Message", htmlAttributes: new { @class = "form-label" })
+                            @Html.TextArea("Message", "", new { @class = "form-control", rows = "5", placeholder = "Write your message here..." })
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg shadow-sm">📨 Send Message</button>
+                        </div>
+                    }
+
+                    <div class="text-center mt-4">
+                        <a href="/" class="btn btn-secondary btn-lg shadow-sm">🏠 Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: linear-gradient(120deg, #f0f8ff, #ffffff);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .card-body p, .card-body form {
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+
+    a.btn:hover, button.btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .card-header {
+        letter-spacing: 1px;
+    }
+</style>

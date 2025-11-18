@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<!-- ✈️ Vistara Airlines Login Page -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header text-center text-white py-3"
+                     style="background: linear-gradient(90deg, #004aad, #007bff); border-top-left-radius: 15px; border-top-right-radius: 15px;">
+                    <h3 class="fw-bold">✈️ Vistara Airlines Portal</h3>
+                    <p class="mb-0">User & Manager Login</p>
+                </div>
+
+                <div class="card-body px-4 py-5" style="background: rgba(255,255,255,0.95);">
+                    @using (Html.BeginForm("Login", "User", FormMethod.Post))
+                    {
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Username</label>
+                            @Html.TextBox("Username", null, new { @class = "form-control rounded-pill shadow-sm", placeholder = "Enter username", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Password</label>
+                            @Html.Password("Password", null, new { @class = "form-control rounded-pill shadow-sm", placeholder = "Enter password", required = "required" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Login Type</label>
+                            @Html.DropDownList("RoleType",
+                                new SelectList(new[] { "User", "Manager" }),
+                                "Select Role",
+                                new { @class = "form-select rounded-pill shadow-sm", required = "required" })
+                        </div>
+
+                        <div class="d-grid mt-4">
+                            <input type="submit" value="🔐 Login" class="btn btn-primary rounded-pill shadow fw-semibold" />
+                        </div>
+                    }
+
+                    @{
+                        if (ViewBag.Error != null)
+                        {
+                            <div class="alert alert-danger mt-3 text-center fw-semibold">@ViewBag.Error</div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 🌆 Background Image -->
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: url('https://media.istockphoto.com/id/530089923/photo/landing-airplane.webp?a=1&b=1&s=612x612&w=0&k=20&c=1QH3-XCD51wElKVDMQ3b8jAs3jiEkxHiyZlE70KnhoQ=') no-repeat center center fixed;
+        background-size: cover;
+        backdrop-filter: blur(3px);
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .card {
+        backdrop-filter: blur(8px);
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+
+    .form-control, .form-select {
+        border: 1px solid #ccc;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus, .form-select:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0,123,255,0.3);
+        }
+
+    .btn {
+        transition: all 0.3s ease;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+    h3 {
+        font-weight: 700;
+    }
+</style>

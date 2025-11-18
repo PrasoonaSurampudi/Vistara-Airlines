@@ -1,0 +1,43 @@
+﻿
+@model VistaraAirlines.Models.BookingModel
+@{
+    ViewBag.Title = "Edit Booking";
+}
+
+<h2 class="text-center text-primary mb-4">✏ Edit Booking</h2>
+
+@using (Html.BeginForm("Edit", "Booking", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.BookingId)
+
+    <div class="form-group">
+        <label>Passenger Name</label>
+        @Html.TextBoxFor(m => m.PassengerName, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Flight</label>
+        @Html.DropDownListFor(m => m.FlightId, (SelectList)ViewBag.Flights, "Select Flight", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Seats Booked</label>
+        @Html.TextBoxFor(m => m.SeatsBooked, new { @class = "form-control", type = "number" })
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Amount Paid (₹)</label>
+        @Html.TextBoxFor(m => m.AmountPaid, new { @class = "form-control", type = "number", step = "0.01" })
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Status</label>
+        @Html.DropDownListFor(m => m.BookingStatus, new SelectList(new[] { "Confirmed", "Cancelled" }), new { @class = "form-control" })
+    </div>
+
+    <div class="text-center mt-3">
+        <button type="submit" class="btn btn-success">💾 Save Changes</button>
+        <a href="@Url.Action("Index", "Booking")" class="btn btn-secondary">Back</a>
+       
+    </div>
+}

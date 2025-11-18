@@ -1,0 +1,13 @@
+﻿@model VistaraAirlines.Models.FlightModel
+
+<h2>Delete Flight</h2>
+
+<p>Are you sure you want to delete flight <b>@Model.FlightNumber</b> ?</p>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.FlightId)
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary" })
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>
+}

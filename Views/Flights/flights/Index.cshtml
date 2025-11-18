@@ -1,0 +1,59 @@
+﻿@model List<VistaraAirlines.Models.FlightModel>
+
+@{
+    ViewBag.Title = "Flights List";
+}
+
+<h2 class="text-center">Flights List</h2>
+
+@if (Session["ManagerUser"] == null)
+{
+    <div class="alert alert-danger">
+        Unauthorized Access! Only Managers can view flights.
+    </div>
+    return;
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Flight ID</th>
+            <th>Flight Number</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Fare</th>
+            <th>Total Seats</th>
+            <th>Available Seats</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FlightId</td>
+                <td>@item.FlightNumber</td>
+                <td>@item.Source</td>
+                <td>@item.Destination</td>
+                <td>@item.DepartureTime.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@item.ArrivalTime.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@item.Fare</td>
+                <td>@item.TotalSeats</td>
+                <td>@item.AvailableSeats</td>
+
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.FlightId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.FlightId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("Add New Flight", "Create", "Flights", null, new { @class = "btn btn-primary" })
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>
+</p>

@@ -1,0 +1,10 @@
+﻿@model VistaraAirlines.Models.FlightStatusModel
+<h2>Add Flight Status</h2>
+@using (Html.BeginForm())
+{
+    <label>Flight ID</label>@Html.TextBoxFor(m => m.FlightId)
+    <br />
+    <label>Status</label>@Html.TextBoxFor(m => m.Status)
+    <br />
+    <input type="submit" value="Save" class="btn btn-primary" />
+}

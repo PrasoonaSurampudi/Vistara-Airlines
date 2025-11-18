@@ -1,0 +1,37 @@
+﻿@model IEnumerable<VistaraAirlines.Models.FlightStatusModel>
+
+<h2>Flight Status List</h2>
+
+@if (User.IsInRole("Manager"))
+{
+    <p>@Html.ActionLink("Add Status", "Create", null, new { @class = "btn btn-success mb-3" })</p>
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Flight</th>
+        <th>Status</th>
+        <th>Updated On</th>
+        @if (User.IsInRole("Manager"))
+        {
+            <th>Actions</th>
+        }
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.FlightNumber</td>
+            <td>@s.Status</td>
+            <td>@s.UpdatedOn</td>
+            @if (User.IsInRole("Manager"))
+            {
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = s.FlightStatusId }, new { @class = "btn btn-sm btn-primary" })
+                    |
+                    @Html.ActionLink("Delete", "Delete", new { id = s.FlightStatusId }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+            }
+        </tr>
+    }
+</table>

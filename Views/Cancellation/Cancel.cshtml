@@ -1,0 +1,49 @@
+﻿@model List<VistaraAirlines.Models.CancelModel>
+
+@{
+    ViewBag.Title = "Cancellations";
+}
+
+<h2 class="text-center text-danger mb-3">🛑 Booking Cancellations</h2>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Booking ID</th>
+        <th>Passenger</th>
+        <th>Flight</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.BookingId</td>
+            <td>@item.PassengerName</td>
+            <td>@item.FlightNumber</td>
+            <td>@item.BookingDate.ToString("dd-MM-yyyy")</td>
+            <td>@item.Remarks</td>
+
+            <td>
+                @if (item.Remarks != "Cancelled")
+                {
+                    using (Html.BeginForm("CancelBooking", "Cancellation", FormMethod.Post))
+                    {
+                        @Html.Hidden("bookingId", item.BookingId)
+                        <button type="submit" class="btn btn-danger btn-sm">Cancel</button>
+                    }
+                }
+                else
+                {
+                    <span class="text-success">Already Cancelled</span>
+                }
+
+
+            </td>
+
+        </tr>
+    }
+
+</table>
+<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>

@@ -1,0 +1,168 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<!-- 🌅 Background & Styles -->
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(10, 20, 70, 0.7)), url('https://media.istockphoto.com/id/530089923/photo/landing-airplane.webp?a=1&b=1&s=612x612&w=0&k=20&c=1QH3-XCD51wElKVDMQ3b8jAs3jiEkxHiyZlE70KnhoQ=') no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* 🌐 Top Navigation Bar */
+    .navbar {
+        width: 100%;
+        padding: 15px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+        .navbar .app-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .navbar a {
+            color: #e0f7fa;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 30px;
+            transition: color 0.3s ease;
+        }
+
+            .navbar a:hover {
+                color: #00e5ff;
+            }
+
+    /* 🏠 Dashboard Container */
+    .dashboard-container {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(15px);
+        border-radius: 25px;
+        padding: 60px 70px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+        animation: fadeIn 1.2s ease;
+        margin-top: 120px;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 1px;
+        text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+        margin-bottom: 20px;
+    }
+
+    .welcome {
+        font-size: 1.3rem;
+        color: #e0f7fa;
+        margin-bottom: 25px;
+        animation: floatText 3s ease-in-out infinite;
+    }
+
+    hr {
+        width: 70%;
+        margin: 25px auto;
+        border-top: 2px solid #00b4d8;
+        opacity: 0.7;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .btn {
+        border-radius: 35px;
+        font-weight: 600;
+        padding: 12px 35px;
+        font-size: 1rem;
+        transition: all 0.35s ease;
+        min-width: 180px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+    }
+
+    .btn-success {
+        background-color: #00c853;
+        border: none;
+    }
+
+    .btn-danger {
+        background-color: #e53935;
+        border: none;
+    }
+
+    .btn-light {
+        background-color: #ffffff;
+        color: #000;
+        border: none;
+    }
+
+    .btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+    }
+</style>
+
+<!-- 🌐 Top Navbar -->
+<div class="navbar">
+    <div class="app-name">✈️ Vistara Airlines</div>
+    <div class="nav-links">
+        <a href="#">Application</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+<!-- ✈️ Dashboard Content -->
+<div class="dashboard-container">
+    <h2>🌍 Dashboard</h2>
+
+    @if (ViewBag.User != null)
+    {
+        <div class="welcome">Welcome aboard, <b>@ViewBag.User</b> 👨‍✈️ (User)</div>
+    }
+    else if (ViewBag.Manager != null)
+    {
+        <div class="welcome">Greetings, <b>@ViewBag.Manager</b> 🧳 (Manager)</div>
+    }
+
+    <hr />
+    <div class="btn-group">
+        @if (Session["Role"] != null && Session["Role"].ToString().Equals("Manager"))
+        {
+            @Html.ActionLink("✈️ Flights", "Index", "Flights", null, new { @class = "btn btn-primary" })
+        }
+
+        @Html.ActionLink("🧾 Bookings", "Index", "Booking", null, new { @class = "btn btn-success" })
+        @Html.ActionLink("❌ Cancellations", "Cancel", "Cancellation", null, new { @class = "btn btn-danger" })
+        @Html.ActionLink("🚪 Logout", "Logout", (ViewBag.Employee != null ? "Employee" : "Manager"), null, new { @class = "btn btn-light" })
+    </div>
+
+
+</div>

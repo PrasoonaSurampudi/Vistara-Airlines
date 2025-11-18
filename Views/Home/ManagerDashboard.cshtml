@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Manager Dashboard";
+}
+
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fs-4 fw-bold" href="#">✈️ Vistara Airlines</a>
+        <div class="collapse navbar-collapse justify-content-end">
+            <div class="navbar-nav">
+                <a href="@Url.Action("About", "Home")" class="nav-link mx-2">About</a>
+                <a href="@Url.Action("Contact", "Home")" class="nav-link mx-2">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Dashboard Container -->
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-gradient-primary text-white text-center fs-4 fw-bold rounded-top-4">
+                    Manager Dashboard
+                </div>
+                <div class="card-body text-center p-5">
+                    @if (Session["ManagerUser"] != null)
+                    {
+                        <h3 class="mb-4">Welcome, <span class="text-warning">@Session["ManagerUser"]</span> 👨‍✈️</h3>
+                    }
+
+                    <!-- Dashboard Buttons -->
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3 justify-content-center">
+                        <div class="col d-flex justify-content-center">
+                            @Html.ActionLink("✈️ Manage Flights", "Index", "Flights", null,
+                            new { @class = "btn btn-primary btn-lg shadow-sm dashboard-btn w-100" })
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="@Url.Action("ManagerBookings", "Booking")"
+                               class="btn btn-success btn-lg shadow-sm dashboard-btn w-100">📄 Confirmed Bookings</a>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="@Url.Action("CancelledBookings", "Booking")"
+                               class="btn btn-danger btn-lg shadow-sm dashboard-btn w-100">❌ Cancelled Bookings</a>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <a href="@Url.Action("ManageStatus", "Flights")"
+                               class="btn btn-info btn-lg shadow-sm dashboard-btn w-100">🛫 Manage Flight Status</a>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            @Html.ActionLink("🚪 Logout", "Logout", "Manager", null,
+                            new { @class = "btn btn-secondary btn-lg shadow-sm dashboard-btn w-100" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom Styles -->
+<style>
+    body {
+        background: linear-gradient(135deg, #f0f4f8, #e0e7ff);
+        min-height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffeb3b;
+            text-decoration: underline;
+        }
+
+    .card-header {
+        background: linear-gradient(90deg, #343a40, #6c757d);
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .dashboard-btn {
+        border-radius: 12px;
+        transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    }
+
+        .dashboard-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        }
+
+    h3 span {
+        font-weight: 700;
+    }
+</style>
+
+<!-- Optional JS for button hover effect -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll(".dashboard-btn");
+        buttons.forEach(btn => {
+            btn.addEventListener("mouseenter", () => btn.classList.add("active"));
+            btn.addEventListener("mouseleave", () => btn.classList.remove("active"));
+        });
+    });
+</script>

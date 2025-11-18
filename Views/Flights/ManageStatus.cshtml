@@ -1,0 +1,70 @@
+﻿@model IEnumerable<VistaraAirlines.Models.FlightModel>
+
+@{
+    ViewBag.Title = "Manage Flight Status";
+}
+
+<h2 class="text-center text-primary mb-4">✈ Manage Flight Status</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="bg-dark text-white">
+        <tr>
+            <th>Flight ID</th>
+            <th>Flight Number</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var flight in Model)
+            {
+                <tr>
+                    <td>@flight.FlightId</td>
+                    <td>@flight.FlightNumber</td>
+                    <td>@flight.Source</td>
+                    <td>@flight.Destination</td>
+                    <td>
+                        @if (flight.FlightStatus == "Cancelled")
+                        {
+                            <span class="badge bg-danger">@flight.FlightStatus</span>
+                        }
+                        else if (flight.FlightStatus == "Delayed")
+                        {
+                            <span class="badge bg-warning">@flight.FlightStatus</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">@flight.FlightStatus</span>
+                        }
+                    </td>
+                    <td>
+                        @using (Html.BeginForm("UpdateStatus", "Flights", FormMethod.Post))
+                        {
+                            @Html.Hidden("id", flight.FlightId)
+                            <select name="status" class="form-select form-select-sm d-inline w-auto">
+                                <option value="Scheduled" @(flight.FlightStatus == "Scheduled" ? "selected" : "")>Scheduled</option>
+                                <option value="Delayed" @(flight.FlightStatus == "Delayed" ? "selected" : "")>Delayed</option>
+                                <option value="Cancelled" @(flight.FlightStatus == "Cancelled" ? "selected" : "")>Cancelled</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary btn-sm ms-1">Update</button>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center text-danger">No flights found</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="text-center mt-3">
+    <a href="@Url.Action("Index", "Flights")" class="btn btn-secondary">Back to Flights</a>
+</div>

@@ -1,0 +1,31 @@
+﻿@model VistaraAirlines.Models.FlightModel
+
+<h2>Create Flight</h2>
+
+@using (Html.BeginForm())
+{
+    <label>Flight Number</label>
+    @Html.TextBoxFor(m => m.FlightNumber, new { @class = "form-control", required = "required" })
+
+    <label>Source</label>
+    @Html.TextBoxFor(m => m.Source, new { @class = "form-control", required = "required" })
+
+    <label>Destination</label>
+    @Html.TextBoxFor(m => m.Destination, new { @class = "form-control", required = "required" })
+
+    <label>Departure Time</label>
+    <input type="datetime-local" name="DepartureTime" class="form-control" required />
+
+    <label>Arrival Time</label>
+    <input type="datetime-local" name="ArrivalTime" class="form-control" required />
+
+    <label>Fare</label>
+    @Html.TextBoxFor(m => m.Fare, new { @class = "form-control", type = "number", required = "required" })
+
+    <label>Total Seats</label>
+    @Html.TextBoxFor(m => m.TotalSeats, new { @class = "form-control", type = "number", required = "required" })
+
+    <br />
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>
+}

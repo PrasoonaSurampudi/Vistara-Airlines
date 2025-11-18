@@ -1,0 +1,35 @@
+﻿@model VistaraAirlines.Models.BookingModel
+
+@{
+    ViewBag.Title = "Create Booking";
+}
+
+<h2>Create Booking</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group mb-2">
+        @Html.LabelFor(m => m.PassengerName)
+        @Html.TextBoxFor(m => m.PassengerName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group mb-2">
+        @Html.Label("Flight")
+        @Html.DropDownListFor(m => m.FlightId, (SelectList)ViewBag.Flights, "-- Select Flight --", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group mb-2">
+        @Html.LabelFor(m => m.SeatsBooked)
+        @Html.TextBoxFor(m => m.SeatsBooked, new { @class = "form-control", type = "number", min = "1" })
+    </div>
+
+    <div class="form-group mb-2">
+        @Html.LabelFor(m => m.AmountPaid)
+        @Html.TextBoxFor(m => m.AmountPaid, new { @class = "form-control", type = "number", step = "0.01", min = "0" })
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Book</button>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary mt-2 ms-2" })
+}

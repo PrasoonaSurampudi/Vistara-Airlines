@@ -1,0 +1,38 @@
+﻿@model IEnumerable<VistaraAirlines.Models.BookingModel>
+
+<h2 class="text-center text-primary mb-4">📘 Confirmed Bookings (Manager View)</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="bg-dark text-white">
+        <tr>
+            <th>Booking ID</th>
+            <th>Passenger Name</th>
+            <th>Flight</th>
+            <th>Seats</th>
+            <th>Amount Paid</th>
+            <th>Booking Date</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.BookingId</td>
+                <td>@item.PassengerName</td>
+                <td>@item.FlightId</td>
+                <td>@item.SeatsBooked</td>
+                <td>₹@item.AmountPaid</td>
+                <td>@item.BookingDate.ToString("dd-MM-yyyy")</td>
+                <td>
+                    <span class="badge bg-success">Confirmed</span>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="text-center mt-3">
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back to Dashboard</a>
+    
+</div>

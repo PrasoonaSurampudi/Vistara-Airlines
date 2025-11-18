@@ -1,0 +1,36 @@
+﻿@model VistaraAirlines.Models.FlightModel
+
+<h2>Edit Flight</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(m => m.FlightId)
+
+    <label>Flight Number</label>
+    @Html.TextBoxFor(m => m.FlightNumber, new { @class = "form-control" })
+
+    <label>Source</label>
+    @Html.TextBoxFor(m => m.Source, new { @class = "form-control" })
+
+    <label>Destination</label>
+    @Html.TextBoxFor(m => m.Destination, new { @class = "form-control" })
+
+    <label>Departure Time</label>
+    <input type="datetime-local" name="DepartureTime" value="@Model.DepartureTime.ToString("yyyy-MM-ddTHH:mm")" class="form-control" />
+
+    <label>Arrival Time</label>
+    <input type="datetime-local" name="ArrivalTime" value="@Model.ArrivalTime.ToString("yyyy-MM-ddTHH:mm")" class="form-control" />
+
+    <label>Fare</label>
+    @Html.TextBoxFor(m => m.Fare, new { @class = "form-control" })
+
+    <label>Total Seats</label>
+    @Html.TextBoxFor(m => m.TotalSeats, new { @class = "form-control" })
+
+    <label>Available Seats</label>
+    @Html.TextBoxFor(m => m.AvailableSeats, new { @class = "form-control" })
+
+    <br />
+    <input type="submit" value="Update" class="btn btn-primary" />
+    <a href="@Url.Action("Index", "Flights")" class="btn btn-secondary">Back to Flights</a>
+}
