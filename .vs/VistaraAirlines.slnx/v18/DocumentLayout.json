@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|c:\\users\\prasu\\source\\repos\\vistaraairlines\\views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\flightstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,7 +43,7 @@
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\flightstatus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|c:\\users\\prasu\\source\\repos\\vistaraairlines\\views\\flights\\flightstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\flights\\flightstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\flights\\flightstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -178,11 +178,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ManagerDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\ManagerDashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ManagerDashboard.cshtml",
@@ -203,8 +203,7 @@
               "RelativeToolTip": "Views\\Booking\\ManagerBookings.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:14:21.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T10:14:21.129Z"
             },
             {
               "$type": "Document",
@@ -216,12 +215,11 @@
               "RelativeToolTip": "Controllers\\ManagerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:12:31.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:12:31.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -242,8 +240,7 @@
               "RelativeToolTip": "Views\\Home\\UserDashboard.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAcwBcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:18:27.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T09:18:27.933Z"
             },
             {
               "$type": "Document",
@@ -255,8 +252,7 @@
               "RelativeToolTip": "Controllers\\FlightStatusController.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAAAHcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:07:02.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:07:02.07Z"
             },
             {
               "$type": "Document",
@@ -268,8 +264,7 @@
               "RelativeToolTip": "Views\\Home\\Contact.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:10:46.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:10:46.902Z"
             },
             {
               "$type": "Document",
@@ -281,8 +276,7 @@
               "RelativeToolTip": "Views\\Home\\About.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAAAQwEkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:10:35.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:10:35.378Z"
             },
             {
               "$type": "Document",
@@ -294,8 +288,7 @@
               "RelativeToolTip": "Views\\FlightStatus\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:09:50.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:09:50.526Z"
             },
             {
               "$type": "Document",
@@ -307,8 +300,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:10:50.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T10:10:50.845Z"
             },
             {
               "$type": "Document",
@@ -356,8 +348,7 @@
               "RelativeToolTip": "Views\\Flights\\FlightStatus.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T16:46:19.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T16:46:19.974Z"
             },
             {
               "$type": "Document",
