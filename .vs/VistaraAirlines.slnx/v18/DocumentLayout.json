@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|c:\\users\\prasu\\source\\repos\\vistaraairlines\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|c:\\users\\prasu\\source\\repos\\vistaraairlines\\views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\flights\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\flights\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\cancellationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\cancellationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\home\\managerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\flightstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\flightstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\home\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,14 +107,6 @@
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\cancellation\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\flights\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\flights\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -123,36 +151,12 @@
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\manager\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\flightmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:models\\flightmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\cancellationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\cancellationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -161,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\cancelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:models\\cancelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC733A37-909D-4861-B6E1-986E4100E69A}|VistaraAirlines.csproj|C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\models\\flightstatusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -178,44 +178,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ManagerDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\ManagerDashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ManagerDashboard.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\ManagerDashboard.cshtml",
-              "RelativeToolTip": "Views\\Home\\ManagerDashboard.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:19:08.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ManagerBookings.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\ManagerBookings.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\ManagerBookings.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\ManagerBookings.cshtml",
-              "RelativeToolTip": "Views\\Booking\\ManagerBookings.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:14:21.129Z"
+              "WhenOpened": "2025-11-13T09:56:18.087Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ManagerController.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\ManagerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\ManagerController.cs",
-              "RelativeToolTip": "Controllers\\ManagerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\UserDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\UserDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:18:27.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "Controllers\\FlightsController.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAkwLAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:12:31.919Z"
+              "WhenOpened": "2025-11-13T10:01:33.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-13T10:14:12.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:55:32.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Flights\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:50:39.329Z"
             },
             {
               "$type": "Document",
@@ -225,386 +261,50 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T10:10:17.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\UserDashboard.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\UserDashboard.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\UserDashboard.cshtml",
-              "RelativeToolTip": "Views\\Home\\UserDashboard.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:18:27.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FlightStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightStatusController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FlightStatusController.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightStatusController.cs",
-              "RelativeToolTip": "Controllers\\FlightStatusController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAAHcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:07:02.07Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:10:46.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwEkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:10:35.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\FlightStatus\\Index.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Index.cshtml",
-              "RelativeToolTip": "Views\\FlightStatus\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:09:50.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:10:50.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManageStatus.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\ManageStatus.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\ManageStatus.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\ManageStatus.cshtml",
-              "RelativeToolTip": "Views\\Flights\\ManageStatus.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T16:23:14.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\Create.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Create.cshtml",
-              "RelativeToolTip": "Views\\Flights\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:49:02.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Flights\\Edit.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwCIAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:49:31.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FlightStatus.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\FlightStatus.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\FlightStatus.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\FlightStatus.cshtml",
-              "RelativeToolTip": "Views\\Flights\\FlightStatus.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T16:46:19.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\FlightStatus\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Edit.cshtml",
-              "RelativeToolTip": "Views\\FlightStatus\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:09:34.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\Index.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Index.cshtml",
-              "RelativeToolTip": "Views\\Flights\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:48:47.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Create.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwCEAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T09:56:18.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Cancel.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Cancellation\\Cancel.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cancellation\\Cancel.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Cancellation\\Cancel.cshtml",
-              "RelativeToolTip": "Views\\Cancellation\\Cancel.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T08:18:01.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Flights\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T09:50:39.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Index.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwEAAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T09:57:45.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Edit.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwCgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T09:57:00.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CancelledBookings.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\CancelledBookings.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\CancelledBookings.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\CancelledBookings.cshtml",
-              "RelativeToolTip": "Views\\Booking\\CancelledBookings.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:22:14.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\FlightStatus\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Delete.cshtml",
-              "RelativeToolTip": "Views\\FlightStatus\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:08:23.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\FlightStatus\\Create.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Create.cshtml",
-              "RelativeToolTip": "Views\\FlightStatus\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:07:55.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Flights\\flights\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T17:13:58.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Flights\\flights\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T17:13:59.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FlightStatus.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\FlightStatus.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\flights\\FlightStatus.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\FlightStatus.cshtml",
-              "RelativeToolTip": "Views\\Flights\\flights\\FlightStatus.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T17:14:29.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Index.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Index.cshtml",
-              "RelativeToolTip": "Views\\Flights\\flights\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T17:14:37.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Create.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Create.cshtml",
-              "RelativeToolTip": "Views\\Flights\\flights\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T17:13:53.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Manager\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Manager\\Login.cshtml",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Manager\\Login.cshtml",
-              "RelativeToolTip": "Views\\Manager\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T10:13:04.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "FlightsController.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FlightsController.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightsController.cs",
-              "RelativeToolTip": "Controllers\\FlightsController.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAiwOcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:01:33.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "FlightModel.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\FlightModel.cs",
-              "RelativeDocumentMoniker": "Models\\FlightModel.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\FlightModel.cs",
-              "RelativeToolTip": "Models\\FlightModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:00:39.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAiwMEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T09:55:32.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BookingModel.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\BookingModel.cs",
-              "RelativeDocumentMoniker": "Models\\BookingModel.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\BookingModel.cs",
-              "RelativeToolTip": "Models\\BookingModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T09:54:40.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
               "Title": "CancellationController.cs",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\CancellationController.cs",
               "RelativeDocumentMoniker": "Controllers\\CancellationController.cs",
               "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\CancellationController.cs",
               "RelativeToolTip": "Controllers\\CancellationController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T09:59:09.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 8,
+              "Title": "BookingModel.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\BookingModel.cs",
+              "RelativeDocumentMoniker": "Models\\BookingModel.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\BookingModel.cs",
+              "RelativeToolTip": "Models\\BookingModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:54:40.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:13:27.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginModel.cs",
@@ -616,19 +316,331 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "FlightStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightStatusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FlightStatusController.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\FlightStatusController.cs",
+              "RelativeToolTip": "Controllers\\FlightStatusController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAHcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T10:13:27.675Z"
+              "WhenOpened": "2025-11-13T10:07:02.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 13,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "Controllers\\ManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:12:31.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManagerBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\ManagerBookings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\ManagerBookings.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\ManagerBookings.cshtml",
+              "RelativeToolTip": "Views\\Booking\\ManagerBookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T10:14:21.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManagerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\ManagerDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ManagerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\ManagerDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\ManagerDashboard.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:19:08.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:10:46.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:10:35.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FlightStatus\\Index.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Index.cshtml",
+              "RelativeToolTip": "Views\\FlightStatus\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:09:50.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:10:50.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\ManageStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\ManageStatus.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\ManageStatus.cshtml",
+              "RelativeToolTip": "Views\\Flights\\ManageStatus.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T16:23:14.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\Create.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Create.cshtml",
+              "RelativeToolTip": "Views\\Flights\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:49:02.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Flights\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:49:31.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FlightStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\FlightStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\FlightStatus.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\FlightStatus.cshtml",
+              "RelativeToolTip": "Views\\Flights\\FlightStatus.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T16:46:19.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\FlightStatus\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Edit.cshtml",
+              "RelativeToolTip": "Views\\FlightStatus\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:09:34.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\Index.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\Index.cshtml",
+              "RelativeToolTip": "Views\\Flights\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:48:47.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Cancel.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Cancellation\\Cancel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cancellation\\Cancel.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Cancellation\\Cancel.cshtml",
+              "RelativeToolTip": "Views\\Cancellation\\Cancel.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T08:18:01.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T09:57:45.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T09:57:00.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CancelledBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\CancelledBookings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\CancelledBookings.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Booking\\CancelledBookings.cshtml",
+              "RelativeToolTip": "Views\\Booking\\CancelledBookings.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T10:22:14.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\FlightStatus\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Delete.cshtml",
+              "RelativeToolTip": "Views\\FlightStatus\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:08:23.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\FlightStatus\\Create.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\FlightStatus\\Create.cshtml",
+              "RelativeToolTip": "Views\\FlightStatus\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:07:55.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Flights\\flights\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:13:58.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Flights\\flights\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:13:59.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FlightStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\FlightStatus.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\flights\\FlightStatus.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\FlightStatus.cshtml",
+              "RelativeToolTip": "Views\\Flights\\flights\\FlightStatus.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:14:29.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Index.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Index.cshtml",
+              "RelativeToolTip": "Views\\Flights\\flights\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:14:37.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Flights\\flights\\Create.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Flights\\flights\\Create.cshtml",
+              "RelativeToolTip": "Views\\Flights\\flights\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T17:13:53.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Manager\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Manager\\Login.cshtml",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Manager\\Login.cshtml",
+              "RelativeToolTip": "Views\\Manager\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T10:13:04.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FlightModel.cs",
+              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\FlightModel.cs",
+              "RelativeDocumentMoniker": "Models\\FlightModel.cs",
+              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\FlightModel.cs",
+              "RelativeToolTip": "Models\\FlightModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:00:39.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
@@ -640,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -652,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "CancelModel.cs",
               "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Models\\CancelModel.cs",
               "RelativeDocumentMoniker": "Models\\CancelModel.cs",
@@ -661,19 +673,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T09:58:45.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\prasu\\source\\repos\\VistaraAirlines\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-13T10:14:12.16Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

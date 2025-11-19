@@ -3,11 +3,17 @@
 <h2>Delete Flight</h2>
 
 <p>Are you sure you want to delete flight <b>@Model.FlightNumber</b> ?</p>
+@if (TempData["DeleteError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["DeleteError"]
+    </div>
+}
 
 @using (Html.BeginForm())
 {
     @Html.HiddenFor(m => m.FlightId)
     <input type="submit" value="Delete" class="btn btn-danger" />
     @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary" })
-<a href="@Url.Action("Index", "Flights")" class="btn btn-secondary">Back to Flights</a>
+    <a href="@Url.Action("Index", "Flights")" class="btn btn-secondary">Back to Flights</a>
 }

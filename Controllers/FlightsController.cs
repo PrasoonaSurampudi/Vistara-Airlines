@@ -174,18 +174,36 @@ namespace VistaraAirlines.Controllers
         // -------------------------------
         // DELETE : POST
         // -------------------------------
+       
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
             using (SqlConnection con = new SqlConnection(cs))
             {
+                con.Open();
+
+                // Check if any bookings exist
+                SqlCommand checkBookings = new SqlCommand(
+                    "SELECT COUNT(*) FROM Bookings WHERE FlightId=@id", con);
+                checkBookings.Parameters.AddWithValue("@id", id);
+
+                int bookingCount = (int)checkBookings.ExecuteScalar();
+
+                if (bookingCount > 0)
+                {
+                    TempData["DeleteError"] = "Flight cannot be deleted because it has existing bookings or cancellations.";
+                    return RedirectToAction("Delete", new { id = id });
+                }
+
+                // No Bookings → Safe to delete
                 SqlCommand cmd = new SqlCommand("DELETE FROM Flights WHERE FlightId=@id", con);
                 cmd.Parameters.AddWithValue("@id", id);
-                con.Open();
                 cmd.ExecuteNonQuery();
             }
+
             return RedirectToAction("Index");
         }
+
 
         // -------------------------------
         // MANAGE STATUS
